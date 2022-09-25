@@ -44,21 +44,30 @@
 
 <body>
     <div class="container px-2 py-0">
+
         <div class="col-md-8 offset-md-2 pb-3 p-3">
-            <h3 class="text-white d-flex justify-content-center">Escolha a categoria do item a ser registrado :</h3>
+            <h3 class="text-white d-flex justify-content-center">Local do Item :</h3>
             <select class="form-select " aria-label="Default select example">
-                <option selected>Escolha o que deseja cadastrar</option>
+                <option selected>Onde esse item será cadastrado ?</option>
+                <option value="1">Casa</option>
+                <option value="2">Empresa</option>
+                <option value="3">Lista de Localidades</option>
+            </select>
+        </div>
+            <h3 class="text-white d-flex justify-content-center">Categoria do Item:</h3>
+            <select class="form-select " aria-label="Default select example">
+                <option selected>O que deseja cadastrar ?</option>
                 <option value="1">Alarme</option>
                 <option value="2">Trancas</option>
                 <option value="3">Ar Condicionado</option>
                 <option value="2">Portão da Garagem</option>
                 <option value="3">Luzes da Garagem</option>
-                <option value="4">Localidade</option>
+                <option value="4">Local</option>
             </select>
         </div>
 
         <div class="col-md-8 offset-md-2 p-3">
-            <h3 class="text-white d-flex justify-content-center">Nome do item a ser registrado :</h3>
+            <h3 class="text-white d-flex justify-content-center">Nome do Novo Item :</h3>
             <input type="text" class="form-control" placeholder="Quarto 1, Porta da cozinha, etc...">
         </div>
         <div class="col-md-8 offset-md-2 p-3 d-flex justify-content-center">
